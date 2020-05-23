@@ -27,8 +27,8 @@ public:
     }
 };
 
-//以㆘宣告如果不出现，GCC也可以通过。如果出现，GCC也可以通过。这㆒点和
-// C++ Primer 3/e p.834的说法有出入。书㆖说㆒定要有这些前置宣告。
+//以下宣告如果不出现，GCC也可以通过。如果出现，GCC也可以通过。这一点和
+// C++ Primer 3/e p.834的说法有出入。书上说一定要有这些前置宣告。
 template <class T, class Sequence>
 class stack;
 
