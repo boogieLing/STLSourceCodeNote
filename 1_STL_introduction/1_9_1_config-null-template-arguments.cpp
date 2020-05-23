@@ -19,6 +19,7 @@ class alloc {
 
 // BufSiz为非类型参数
 template <class T, class Alloc=alloc, size_t BufSiz=0>
+//template <class T, class Alloc=alloc, const size_t BufSiz=0>
 class deque {
 public:
     deque() {
