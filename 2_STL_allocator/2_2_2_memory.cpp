@@ -16,10 +16,10 @@
 #define __SGI_STL_MEMORY
 
 #include <stl_algobase.h>
-#include <stl_alloc.h> // ÕâÀï¶¨ÒåÓÐÒ»¡¢¶þ¼¶ÅäÖÃÆ÷£¬±Ë´ËºÏ×÷¡£ÅäÖÃÆ÷ÃûÎª  alloc¡£
-#include <stl_construct.h> // ÕâÀï¶¨ÒåÓÐÈ«Óòº¯Ê½construct()ºÍ  destroy()£¬¸ºÔðÎï¼þµÄ½¨¹¹ºÍ½â¹¹¡£ËüÃÇÁ¥ÊôÓÚ  STL  ±ê×¼¹æ·¶¡£
+#include <stl_alloc.h> // è¿™é‡Œå®šä¹‰æœ‰ä¸€ã€äºŒçº§é…ç½®å™¨ï¼Œå½¼æ­¤åˆä½œã€‚é…ç½®å™¨åä¸º  allocã€‚
+#include <stl_construct.h> // è¿™é‡Œå®šä¹‰æœ‰å…¨åŸŸå‡½å¼construct()å’Œ  destroy()ï¼Œè´Ÿè´£ç‰©ä»¶çš„å»ºæž„å’Œè§£æž„ã€‚å®ƒä»¬éš¶å±žäºŽ  STL  æ ‡å‡†è§„èŒƒã€‚
 #include <stl_tempbuf.h>
-#include <stl_uninitialized.h> // ÕâÀï¶¨ÒåÓÐÈ«Óòº¯Ê½£¬ÓÃÀ´³äÌî£¨fill£©»ò¸´ÖÆ£¨copy£©´ó¿éÄÚ´æÄÚÈÝ£¬ËüÃÇÒ²¶¼Á¥ÊôÓÚ  STL  ±ê×¼¹æ·¶
+#include <stl_uninitialized.h> // è¿™é‡Œå®šä¹‰æœ‰å…¨åŸŸå‡½å¼ï¼Œç”¨æ¥å……å¡«ï¼ˆfillï¼‰æˆ–å¤åˆ¶ï¼ˆcopyï¼‰å¤§å—å†…å­˜å†…å®¹ï¼Œå®ƒä»¬ä¹Ÿéƒ½éš¶å±žäºŽ  STL  æ ‡å‡†è§„èŒƒ
 #include <stl_raw_storage_iter.h>
 
 
